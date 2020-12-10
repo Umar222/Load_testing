@@ -1,0 +1,10 @@
+{
+  "simulation": "test.LoadTestSimulation",
+  "simulationId": "loadtestsimulation",
+  "start": 1607592681498,
+  "description": "",
+  "scenarios": ["TestSimulation"],
+  "assertions": [
+
+  ]
+}

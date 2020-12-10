@@ -1,0 +1,13 @@
+plugins {
+    id "io.gatling.gradle" version "3.4.2"
+}
+
+repositories {
+    mavenCentral()
+}
+
+gatling {
+    toolVersion '3.4.2'
+    scalaVersion '2.12.8'
+    logLevel 'ERROR'
+}

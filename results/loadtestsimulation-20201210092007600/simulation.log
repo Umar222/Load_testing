@@ -1,0 +1,13 @@
+RUN	test.LoadTestSimulation	loadtestsimulation	1607592007600	 	3.4.2
+USER	TestSimulation	START	1607592010317
+USER	TestSimulation	START	1607592012053
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номер	1607592010418	1607592013401	OK	 
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номер	1607592012054	1607592013401	OK	 
+USER	TestSimulation	START	1607592013561
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номер	1607592013562	1607592013640	OK	 
+REQUEST		Search	1607592019438	1607592019463	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 404
+REQUEST		Search	1607592019438	1607592019463	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 404
+REQUEST		Search	1607592019648	1607592019669	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 404
+USER	TestSimulation	END	1607592024477
+USER	TestSimulation	END	1607592024477
+USER	TestSimulation	END	1607592024674

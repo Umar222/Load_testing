@@ -1,0 +1,26 @@
+RUN	test.LoadTestSimulation	loadtestsimulation	1607602155254	 	3.4.2
+USER	TestSimulation	START	1607602160337
+USER	TestSimulation	START	1607602157848
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номера	1607602157948	1607602160944	OK	 
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номера	1607602160338	1607602160944	OK	 
+USER	TestSimulation	START	1607602162837
+USER	TestSimulation	START	1607602162837
+USER	TestSimulation	START	1607602162837
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номера	1607602162838	1607602162916	OK	 
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номера	1607602162838	1607602162923	OK	 
+REQUEST		Проверка кэширования данных при запросе одинаково кадастрового номера	1607602162838	1607602162933	OK	 
+REQUEST		Search	1607602166986	1607602167010	OK	 
+REQUEST		Search	1607602166986	1607602167010	OK	 
+REQUEST		Search	1607602168924	1607602168946	OK	 
+REQUEST		Search	1607602168929	1607602168949	OK	 
+REQUEST		Search	1607602168940	1607602168963	OK	 
+REQUEST		/polygon/summaryZone	1607602170015	1607602170039	OK	 
+REQUEST		/polygon/summaryZone	1607602170015	1607602170039	OK	 
+REQUEST		/polygon/summaryZone	1607602171953	1607602171975	OK	 
+REQUEST		/polygon/summaryZone	1607602171954	1607602171975	OK	 
+REQUEST		/polygon/summaryZone	1607602171970	1607602171991	OK	 
+USER	TestSimulation	END	1607602173051
+USER	TestSimulation	END	1607602173051
+USER	TestSimulation	END	1607602174981
+USER	TestSimulation	END	1607602174982
+USER	TestSimulation	END	1607602174994
